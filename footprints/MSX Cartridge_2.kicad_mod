@@ -319,15 +319,15 @@
   (pad "48" smd circle (at 2.54 -1.27) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d9f2104-773d-48f0-bf7d-ffeaa98caac9))
   (pad "49" smd circle (at 0 -1.27) (size 1.2 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d15827dd-5850-41ab-afde-1467cb5abc67))
   (pad "50" smd circle (at 0 -1.27) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d552ab32-0f8d-4f03-a433-c06fdd2119bf))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ff7c7a6a-dbe5-4c09-8962-bea4e5acf6cf) (hatch edge 0.5)
+  (zone (net 0) (net_name "") (layers "F&B.Cu") (tstamp ff7c7a6a-dbe5-4c09-8962-bea4e5acf6cf) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
-        (xy -3 0.5)
-        (xy 63.5 0.5)
+        (xy -3 0)
+        (xy 63.5 0)
         (xy 63.5 10)
         (xy -3 10)
       )
