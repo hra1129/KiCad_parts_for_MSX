@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6)
+    (start_pass_no 7)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -67,7 +67,7 @@
     "Net-(D9-K)" "Net-(D9-A)" "Net-(D10-K)" "Net-(D10-A)" "Net-(D11-K)" "Net-(D11-A)" VCC /Y0
     /Y1 /Y2 /Y3 /X7 /X6 /X5 /X4 /X3
     /X2 GND "unconnected-(U1-Q13-Pad13)" "unconnected-(U1-Q12-Pad14)" "unconnected-(U1-Q15-Pad15)" "unconnected-(U1-Q14-Pad16)" "unconnected-(U1-Q11-Pad19)" /X1
-    /X0
+    /X0 "Net-(D12-K)" "Net-(D12-A)" "Net-(D13-K)" "Net-(D13-A)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
