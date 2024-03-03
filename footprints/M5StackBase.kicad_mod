@@ -1,0 +1,460 @@
+(footprint "M5StackBase" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 28.006214 -4.493786 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 58323786-abcd-4e37-a0f7-f305535b1cb1)
+  )
+  (fp_text value "M5StackBase" (at 28.006214 -2.993786 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1c4960df-61a7-4e51-ba45-25e5a0b0e775)
+  )
+  (fp_text user "G35" (at 40.502 6.002 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+    (tstamp 298e5073-6af4-4ee8-aa24-e10b4d02d520)
+  )
+  (fp_text user "BAT" (at 40.502 45.252 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp 88acfa4b-7deb-486a-ae5d-82368f761d41)
+  )
+  (fp_text user "${REFERENCE}" (at 27.506214 -1.493786 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f394b823-74e9-49c2-80e3-7d628c958b43)
+  )
+  (fp_line (start 0.006214 2.006214) (end 0.006214 48.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp eb03ee5f-b437-4829-8e1d-663b3b2b67f9))
+  (fp_line (start 2.006214 50.006214) (end 48.006214 50.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 903b1bbc-f56f-4f5a-abe9-1eb5d8776332))
+  (fp_line (start 48.006214 0.006214) (end 2.006214 0.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 5e2d7fff-58ee-482b-b91b-b56e79eb8dce))
+  (fp_line (start 50.006214 48.006214) (end 50.006214 2.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 2667f394-e136-4d76-968d-e11661baa44a))
+  (fp_arc (start 0.006214 2.006214) (mid 0.592 0.592) (end 2.006214 0.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp cf45b1a6-a9f2-4a3d-9020-84b2a52f7322))
+  (fp_arc (start 2.006214 50.006214) (mid 0.592 49.420428) (end 0.006214 48.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp bda895f6-ad8b-4ccd-950b-d94c0193e3fe))
+  (fp_arc (start 48.006214 0.006214) (mid 49.420428 0.592) (end 50.006214 2.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 772dd1d6-89ca-4288-8c8b-3efb082e3351))
+  (fp_arc (start 50.006214 48.006214) (mid 49.420428 49.420428) (end 48.006214 50.006214)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp e6fbb27e-3db1-4ba7-a5dc-161a9cd238b3))
+  (fp_circle (center 3.006214 3.006214) (end 3.006214 4.506214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 66ceeaf8-f66a-4534-b7b9-a6104c16ccf3))
+  (fp_circle (center 3.006214 47.006214) (end 3.006214 48.506214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 21f7cd83-c594-4b93-a39e-cf989d3f8487))
+  (fp_circle (center 44.002 8.502) (end 44.002 9.002)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 704751c9-2bc6-47f3-8c2f-25a7a69ed3f3))
+  (fp_circle (center 44.002 11.002) (end 44.002 11.502)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 100bcfd1-60eb-4d87-babd-eb1092c54786))
+  (fp_circle (center 44.002 39.002) (end 44.002 39.502)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a8db8377-5076-44d4-bdfa-d3abe9ece108))
+  (fp_circle (center 44.002 41.502) (end 44.002 42.002)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 5750bd04-894e-463a-a7a0-c1e28e56e904))
+  (fp_circle (center 47.006214 3.006214) (end 47.006214 4.506214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp f01f1d55-1ecf-4bfa-99ed-acc67ab8a8af))
+  (fp_circle (center 47.006214 47.006214) (end 47.006214 48.506214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 58736933-c554-45e2-89fb-5694658d2247))
+  (fp_circle (center 2.346 2.206) (end 2.346 4.956)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp cd288e75-f8e8-45b0-9be5-e3e036840d46))
+  (fp_circle (center 2.346 46.206) (end 2.346 48.956)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp e5d5810c-340c-4778-ad40-5e63e1893196))
+  (fp_circle (center 46.346 2.206) (end 46.346 4.956)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp 14e21c33-05f6-4c66-97cb-8a2695786125))
+  (fp_circle (center 46.346 46.206) (end 46.346 48.956)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp 2bf7d66a-0a21-469d-8f11-42cef5d4232f))
+  (fp_circle (center 2.994874 3.006214) (end 3.244874 5.756214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 44620819-3db7-4b3a-af1f-768216c58233))
+  (fp_circle (center 3.006214 47.006214) (end 3.256214 49.756214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 66f60dc8-f6ef-465a-8410-f61c2d2d607e))
+  (fp_circle (center 46.994874 3.006214) (end 47.244874 5.756214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 53d058b9-5d05-4617-b59e-fdb2cfa5c4ef))
+  (fp_circle (center 46.994874 47.006214) (end 47.244874 49.756214)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp e68ef5ff-0a8b-4569-85ac-8106f7e13aab))
+  (pad "3V3" thru_hole custom (at 42.502 19.892) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 0911a1a9-ae41-43cb-89cd-abd341ed02d8))
+  (pad "5V" thru_hole custom (at 42.502 40.212) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 0599eace-8fb3-45b6-8b5f-f828b91311b4))
+  (pad "BAT" thru_hole custom (at 42.502 42.752) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 5e8cb995-c340-4ae8-b46a-678ce289f012))
+  (pad "EN" thru_hole custom (at 42.502 12.272) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 996ddc94-5609-4c67-bcd2-534d9c3ab4f6))
+  (pad "G0" thru_hole custom (at 42.502 35.132) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp aa219e22-bb8b-4749-8c4d-614e68dfe7a4))
+  (pad "G1" thru_hole custom (at 42.502 22.432) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 1512e52a-a63a-4709-8e1e-6021991654c1))
+  (pad "G2" thru_hole custom (at 45.502 35.132) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 86b05c75-cbe6-49b4-b90b-e9fc84182ce5))
+  (pad "G3" thru_hole custom (at 45.502 22.432) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp f82ccd44-f689-467a-8eaa-3854baf1dd4b))
+  (pad "G13" thru_hole custom (at 45.502 24.972) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 3564df41-15ae-4033-967f-c58da63d9502))
+  (pad "G14" thru_hole custom (at 42.502 24.972) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 8be84ea6-10b0-4f10-9801-65f3fd13972f))
+  (pad "G18" thru_hole custom (at 45.502 19.892) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 12abdea6-ce4c-4b5e-9f2e-b039e55aab80))
+  (pad "G19" thru_hole custom (at 42.502 32.592) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 23e5c7eb-5db6-48d0-8c21-c2feea1b0935))
+  (pad "G21" thru_hole custom (at 45.502 27.512) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp b624fb1c-dfb1-4171-9e21-91b5924ddb10))
+  (pad "G22" thru_hole custom (at 42.502 27.512) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp ac066c74-9d05-402e-8a89-09f6257914fc))
+  (pad "G23" thru_hole custom (at 45.502 14.812) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp ea07e52e-ead6-40ca-9bfb-448654ffb543))
+  (pad "G25" thru_hole custom (at 42.502 14.812) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp f81371ef-43a5-439f-9c01-9d531c9a45e1))
+  (pad "G26" thru_hole custom (at 42.502 17.352) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp cfd25d71-c37b-407d-93a4-89ab794a6c96))
+  (pad "G27" thru_hole custom (at 45.502 32.592) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 8df06243-9b70-4e31-88f6-2dc667085a75))
+  (pad "G32" thru_hole custom (at 45.502 30.052) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 0bd8f4d9-d5dc-4ca7-8f61-79d62cd6a52a))
+  (pad "G33" thru_hole custom (at 42.502 30.052) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 373497c1-7eea-4188-9fc0-145b8c3a97cd))
+  (pad "G34" thru_hole custom (at 42.502 37.672) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 12142707-d1c6-433d-ba72-00e2d3b24b8c))
+  (pad "G35" thru_hole custom (at 42.502 7.192) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp a743562d-e877-49d6-88d6-334a5c3371ee))
+  (pad "G36" thru_hole custom (at 42.502 9.732) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy -2.175 -1)
+          (xy -2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 87112b12-967a-4702-a18b-f89440dba0f6))
+  (pad "G38" thru_hole custom (at 45.502 17.352) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 7e582a03-6b95-4a8a-ab7d-8a2b9b7b3fc8))
+  (pad "GND" thru_hole custom (at 45.502 7.192) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp bac88436-4e75-427d-9473-e81d866583fe))
+  (pad "GND" thru_hole custom (at 45.502 9.732) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 1668d946-7f3b-457c-894d-83e602a60572))
+  (pad "GND" thru_hole custom (at 45.502 12.272) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp ae1e112b-afbf-494f-9b1e-2bc93f81a0b1))
+  (pad "NC" thru_hole custom (at 45.502 37.672) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp e2f62a11-37f7-403d-a9ab-3f2062b3790d))
+  (pad "NC" thru_hole custom (at 45.502 40.212) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp c67529e5-98e7-4df5-afdf-4563a7ce3f27))
+  (pad "NC" thru_hole custom (at 45.502 42.752) (size 2 2) (drill 1.27) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 90)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1)
+          (xy 2.175 -1)
+          (xy 2.175 1)
+          (xy 0 1)
+        )
+        (width 0) (fill yes))
+    ) (tstamp f5681c66-90b5-43b4-aafb-471ba3af3385))
+)
